@@ -1,0 +1,17 @@
+.card {
+    border: 1px solid #222;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 20px;
+    
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.btn:hover{
+    background-color: rgb(219, 131, 16);
+}
