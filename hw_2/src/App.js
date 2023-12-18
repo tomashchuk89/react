@@ -1,6 +1,6 @@
 
 import './App.css';
-import Card from './components/card/card';
+import Card from './components/card/Card';
 
 function App() {
   const cources = [
@@ -43,8 +43,9 @@ function App() {
   return (
     <div className="App">
 
-      <Card cources={cources}/>
-     
+      {/* <Card data={cources}/> */}
+      {cources.map(course =>  <Card key={course.id} data={cources}/> )}
+      
     </div>
   );
 }

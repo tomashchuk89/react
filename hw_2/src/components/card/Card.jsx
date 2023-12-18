@@ -1,7 +1,8 @@
-import './card.css';
+import './Card.css';
 
 
-const Card = ({cources}) => {
+const Card = ({data}) => {
+//    const { image, level, title, user, rating, students, modules, duration} = cources;
    
     const hours = (duration) => {
         const milliseconds = duration  * 1000; 
@@ -18,7 +19,7 @@ const Card = ({cources}) => {
     return (
         <>
         <ul className="cards">
-            {cources.map(({id, image, level, title, user, rating, students, modules, duration})=>
+            {data.map(({id, image, level, title, user, rating, students, modules, duration})=>
                 <li key={id}>
                     <div className="card">
                             <div className="image__container">
