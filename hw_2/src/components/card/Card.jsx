@@ -2,7 +2,7 @@ import './Card.css';
 
 
 const Card = ({data}) => {
-//    const { image, level, title, user, rating, students, modules, duration} = cources;
+   const { image, level, title, user, rating, students, modules, duration} = data;
    
     const hours = (duration) => {
         const milliseconds = duration  * 1000; 
@@ -18,9 +18,7 @@ const Card = ({data}) => {
 
     return (
         <>
-        <ul className="cards">
-            {data.map(({id, image, level, title, user, rating, students, modules, duration})=>
-                <li key={id}>
+      
                     <div className="card">
                             <div className="image__container">
                                 <img
@@ -52,9 +50,7 @@ const Card = ({data}) => {
                                 <div>{hours(duration)}</div>
                             </div>
                     </div> 
-                </li>
-            )}
-         </ul>
+               
        </>
                         
     )

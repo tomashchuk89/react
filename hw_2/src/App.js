@@ -43,8 +43,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Card data={cources}/> */}
-      {cources.map(course =>  <Card key={course.id} data={cources}/> )}
+      {cources.map(course => <Card key={course.id} data={course}/> )}
       
     </div>
   );
