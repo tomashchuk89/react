@@ -1,0 +1,19 @@
+.count {
+    margin-top: 250px;
+}
+
+.name-count {
+    font-size: 48px
+}
+
+.btn-count {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 28px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.btn-count:hover {
+  background-color: beige;
+}

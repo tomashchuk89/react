@@ -35,16 +35,16 @@ function App() {
       students: 1234,
       modules: 5,
       finishedModules: 3,
-      duration: 5500,
+      duration: 5800,
       isMyCource: true
     }
   ];
-  
+
   return (
     <div className="App">
 
-      {cources.map(course => <Card key={course.id} data={course}/> )}
-      
+      {cources.map(course => <Card key={course.id} data={course} />)}
+
     </div>
   );
 }
