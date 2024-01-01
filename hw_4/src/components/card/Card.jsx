@@ -27,12 +27,12 @@ const Card = () => {
         <>
             <div>
                 <ul>
-                    {todos.map(({ id, title, completed }) =>
+                    {todos.map(({ id, name, completed }) =>
 
                         <li key={id} className='item'>
 
                             <p>№ {id}</p>
-                            <p>Title: {title}</p>
+                            <p>name: {title}</p>
                             <p>Completed: {completed ? 'Yes' : 'No'}</p>
 
                         </li>)}
