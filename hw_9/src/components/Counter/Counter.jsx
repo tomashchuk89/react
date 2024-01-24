@@ -4,7 +4,7 @@ import "./Counter.css";
 
 const Counter = () => {
   const dispatch = useDispatch();
-  const isCount = useSelector((state) => state.counter.isCount);
+  const isCount = useSelector(state => state.counter.isCount);
 
   const handleIncrement = () => {
     dispatch(increment());

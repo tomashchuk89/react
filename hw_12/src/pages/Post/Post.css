@@ -1,0 +1,13 @@
+.item {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin-left: 5px;
+}
